@@ -1,23 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     background-color: #B8DBD9;
 }
 
 .menu{
     text-align: center;
+    margin-top: 20px;
+}
 
+.menu a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
 }
 
 #name{
     font-family: monospace;
     text-align: center;
+    margin-top: 45px;
 }
 
-.pfp{
-    display: block;
+.inicial-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#pfp{
     width: 200px;
     border-radius: 50%;
+    padding: 25px;
+    background-color: lightcyan;
+}
+
+#about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 25px;
+}   
+
+.contrast{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #about-img{
@@ -26,25 +57,19 @@ body{
     text-align: center;
 }
 
-#about{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-}
-
-.contrast{
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-}
-
 .skills{
     text-align: center;
+    margin-top: 40px;
 }
 
 ul{
     list-style-type: none;
     padding: 0px;
-    margin-top: -10px;
+    margin-top: 15px;
+}
+
+ul li:nth-of-type(2n+1){
+    color: gray;
 }
 
 .top-skills{
@@ -53,4 +78,9 @@ ul{
 
 .mid-skills{
     font-size: 14px;
+}
+
+#blog{
+    text-align: center;
+    margin-top: 30px;
 }
