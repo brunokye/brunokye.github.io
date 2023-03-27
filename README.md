@@ -1,6 +1,6 @@
-# [Portfólio Web | Bruno Ferreira](https://brunokye.github.io/)
+# Portfólio Web | Bruno Ferreira
 
-Este é o repositório do meu portfólio em desenvolvimento. Aqui você pode acompanhar o processo de criação do meu site pessoal, onde apresentarei meus projetos e habilidades.
+Este é o repositório do meu portfólio. Aqui você pode acompanhar o processo de criação do meu site pessoal, onde apresentarei meus projetos e habilidades.
 
 ## Projeto
 
